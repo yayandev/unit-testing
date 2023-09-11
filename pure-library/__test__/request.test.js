@@ -1,5 +1,5 @@
 const { test } = require("tap");
-const request = require("./request.js");
+const request = require("../request.js");
 
 test("a request function , should throw an error", async (assert) => {
   assert.rejects(() => request("http://error.com"), new Error("network error"));

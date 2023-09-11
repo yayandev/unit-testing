@@ -1,5 +1,5 @@
 const { test } = require("tap");
-const sum = require("./sum.js");
+const sum = require("../sum.js");
 test("sum works", async (assert) => {
   assert.equal(sum(1, 2), 3);
 });
